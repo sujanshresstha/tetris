@@ -1,0 +1,46 @@
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+.grid{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: dotted #db7093 .5px;
+    border-radius: 5px;
+    background-color: #f0e68c;
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: #191970;
+}
+
+.mini-grid{
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color:#f5deb3;
+
+}
+
+.mini-grid div{
+    height: 20px;
+    width: 20px;
+}
